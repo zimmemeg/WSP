@@ -1,0 +1,69 @@
+/*///// Main design CSS /////*/
+body{
+	background-color: #fff;
+	font:13px/1.5 'trebuchet ms', Arial, sans-serif;
+	width: 750px;
+	margin: 20px auto;
+	border:10px solid #50a8f4;
+	border-radius:10px;
+}
+
+h1{
+	font-size: 18px;
+	color:#194a74;
+	margin:10px 0 0 0;
+}
+
+h2{
+	font-size: 16px;
+	color:#1164ac;
+	margin:5px 0 0 0;
+}
+
+p{
+	margin:5px 0;
+}
+
+ul{
+	margin:5px 0;
+}
+
+#background{
+	background-color:#f8f8f0;
+}
+
+/*///// Main Content /////*/
+#header{
+	font-size:17px;
+	padding: 20px;
+}
+
+#site_intent{
+	padding:0 20px 15px 20px;
+	border-top:1px dashed #000;
+	border-bottom:1px dashed #000;
+}
+
+#competitive_analysis{
+	padding:0 20px 15px 20px;
+	border-bottom:1px dashed #000;
+	overflow:auto;
+}
+
+.stats{
+	float:left;
+	width:350px;
+}
+
+.demos{
+	float:right;
+	width:350px;
+}
+
+.clearfix{
+	clear:both;
+}
+
+#targeted_audience{
+	padding:0 20px 15px 20px;
+}
