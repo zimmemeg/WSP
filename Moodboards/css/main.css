@@ -1,0 +1,34 @@
+/*///// Main design CSS /////*/
+body{
+	background-color: #e3e3e3;
+	font:13px/1.5 'trebuchet ms', Arial, sans-serif;
+	width: 750px;
+	margin: 20px auto;
+}
+
+img{
+	border:3px solid #000;
+	margin: 10px;
+}
+
+/*///// Main Content /////*/
+#header{
+	font-size:17px;
+	background-color:#fff;
+	padding: 20px;
+	text-align:center;	
+	border:1px solid #000;
+	border-radius:10px;
+}
+
+#moodboards{
+	background-color:#fff;
+	margin-top:20px;
+	border:1px solid #000;
+	border-radius:10px;
+}
+
+.mb1{
+	margin-left:28px;
+}
+
