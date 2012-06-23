@@ -46,6 +46,7 @@ ul li{
 	letter-spacing: 2px;
 	border: 1px solid #000;
 	text-transform: uppercase;
+	background-color:#2566aa;
 }
 
 #nav li:hover{
@@ -56,11 +57,13 @@ ul li{
 #nav a{
 	display:block;
 	height: 20px;
+	color:#fff;
+	text-decoration:none;
 }
 
 #nav a:hover{
-	color:#50153d;
-	background-color:#e1e1e1;
+	color:#000;
+	background-color:#fec12b;
 }
 
 /*Mission Statement*/
@@ -352,6 +355,119 @@ aside p{
 	font-size:30px;
 }
 
+/*About Us*/
+
+#left_side{
+	float:left;
+	width:54.16666667%; /*520*/
+	margin:1.04166667%;
+	overflow:auto;
+}
+
+.icon{
+	float:left;
+	margin-right:.52083333%;
+}
+
+.background h1{
+	margin:0px;
+}
+
+#right_side{
+	float:right;
+	width:41.66666667%;/*400*/
+	margin: 10px 1.04166667% 0 1.04166667%;
+	overflow:auto;
+}
+
+#right_side h2{
+	margin-bottom:10px;
+}
+
+#right_side h3{
+	margin:10px 0 5px 0;
+}
+
+#right_side p{
+	margin:0;
+}
+
+.clearfix{
+	clear:both;
+}
+
+/*Policies*/
+
+#fieldsets{
+	float:left;
+	width:100%;/*600*/
+}
+
+fieldset{
+	border:none;
+}
+
+#left{
+	float:left;
+	width:62.5%;
+	overflow:auto;
+}
+
+#right{
+	margin:10px 1.04166667% 0 0;
+	padding:5px;
+	float:right;
+	text-align:center;
+	width:34.89583333%;/*335*/
+	border:1px solid #959595;
+	background-color:#f7f7f7;
+	border-radius:10px;
+	overflow:auto;
+}
+
+.clearfix{
+	clear:both;
+}
+
+/*Staff*/
+
+#left_staff{
+	float:left;
+	margin:10px 1.04166667%;
+	width:57.29166667%;/*550*/
+	overflow:auto;
+}
+
+.message h1{
+	margin:0 0 10px;
+}
+
+.message fieldset{
+	padding:0;
+}
+
+.message table{
+	margin-left:12.5%;
+}
+
+#right_staff{
+	float:right;
+	overflow:auto;
+	width:39.0625%;/*375*/
+	margin:10px 1.04166667% 0 0;
+}
+
+.guidance{
+	text-align:center;
+}
+
+.directory{
+	margin-top:20px;
+}
+
+.clearfix{
+	clear:both;
+}
 /*Footer*/
 
 footer{
